@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Display raw after updating an existing record</description>
+        <field>isbn</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>SetISBNDisplayOnSubmit</name>
+        <order/>
+        <script><![CDATA[function onChange() {
+   // Retrieve the raw value of the isbn field
+    var rawISBN = g_form.getValue('isbn'); // Replace with your actual field name
+    
+    // Set the display value without formatting
+    g_form.setDisplay('isbn', rawISBN);
+
+    // Continue with the default onSubmit behavior
+    return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 01:40:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6df180247b33110a18beb02d16d43f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SetISBNDisplayOnSubmit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope>
+        <sys_update_name>sys_script_client_a6df180247b33110a18beb02d16d43f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 01:54:30</sys_updated_on>
+        <table>x_1303803_manual_0_manuals</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ManualsTracker">573f087447773110a18beb02d16d4310</application>
+        <file_path/>
+        <instance_id>3f367bcfdb227dd039639027c5961901</instance_id>
+        <instance_name>dev219949</instance_name>
+        <name>sys_script_client_a6df180247b33110a18beb02d16d43f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Display raw after updating an existing record&lt;/description&gt;&lt;field&gt;isbn&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;SetISBNDisplayOnSubmit&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange() {
+   // Retrieve the raw value of the isbn field
+    var rawISBN = g_form.getValue('isbn'); // Replace with your actual field name
+    
+    // Set the display value without formatting
+    g_form.setDisplay('isbn', rawISBN);
+
+    // Continue with the default onSubmit behavior
+    return true;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-19 01:40:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a6df180247b33110a18beb02d16d43f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;SetISBNDisplayOnSubmit&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ManualsTracker" source="x_1303803_manual_0"&gt;573f087447773110a18beb02d16d4310&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ManualsTracker"&gt;573f087447773110a18beb02d16d4310&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a6df180247b33110a18beb02d16d43f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-19 01:54:30&lt;/sys_updated_on&gt;&lt;table&gt;x_1303803_manual_0_manuals&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1370826377</payload_hash>
+        <record_name>SetISBNDisplayOnSubmit</record_name>
+        <reverted_from/>
+        <source>7b3f087447773110a18beb02d16d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 01:54:30</sys_created_on>
+        <sys_id>ad636c8247b33110a18beb02d16d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d1f6d42830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 01:54:30</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a5636c821db33110405be09deefa3d63</update_guid>
+        <update_guid_history>a5636c821db33110405be09deefa3d63:1370826377,0e202802beb331102281dd8366863afd:-1760421015</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 02:38:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0b742bc4eb1247a096a38a4cbb2f4900</sys_id>
+        <sys_metadata>a6df180247b33110a18beb02d16d43f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SetISBNDisplayOnSubmit</sys_name>
+        <sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package>
+        <sys_parent display_value="Manuals">bc2094b447773110a18beb02d16d43dd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope>
+        <sys_scope_delete display_value="">59642f7214f542d290494e5c31b07a09</sys_scope_delete>
+        <sys_update_name>sys_script_client_a6df180247b33110a18beb02d16d43f8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a6df180247b33110a18beb02d16d43f8">ad636c8247b33110a18beb02d16d4363</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 02:38:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

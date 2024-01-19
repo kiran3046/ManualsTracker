@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="ManualsTracker Config">5bc0190247773110a18beb02d16d43c7</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Security and login</name>
+        <optional_parameters/>
+        <order>100</order>
+        <parent_macroponent display_value="Settings Page">afc059029e77311039be9cf214516f26</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>cketv4vef00013g8ybmju8dpb</route_type>
+        <screen_type display_value="Security and login">a3c059022c7731103ec35c456648cc26</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-19 05:12:55</sys_created_on>
+        <sys_id>23c059021077311017ed14bdeee7e425</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and login</sys_name>
+        <sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope>
+        <sys_update_name>sys_ux_app_route_23c059021077311017ed14bdeee7e425</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:12:55</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=23c059021077311017ed14bdeee7e425"/>
+</record_update>
