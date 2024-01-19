@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="copy_number" label="Copy Number" language="en" table="x_1303803_manual_0_manuals">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>copy_number</element>
+            <help/>
+            <hint/>
+            <label>Copy Number</label>
+            <language>en</language>
+            <name>x_1303803_manual_0_manuals</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-16 23:51:51</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Copy Number</sys_name>
+            <sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope>
+            <sys_update_name>sys_documentation_x_1303803_manual_0_manuals_copy_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 02:43:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

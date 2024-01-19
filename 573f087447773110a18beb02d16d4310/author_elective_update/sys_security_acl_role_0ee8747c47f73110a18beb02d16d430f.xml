@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2024-01-15 06:16:03</sys_created_on>
+        <sys_id>0ee8747c47f73110a18beb02d16d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1303803_manual_0_manuals.x_1303803_manual_0.user</sys_name>
+        <sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope>
+        <sys_security_acl display_value="x_1303803_manual_0_manuals">02e8347c47f73110a18beb02d16d43ea</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0ee8747c47f73110a18beb02d16d430f</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:16:03</sys_updated_on>
+        <sys_user_role display_value="x_1303803_manual_0.user" name="x_1303803_manual_0.user">373f087447773110a18beb02d16d43c1</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ManualsTracker">573f087447773110a18beb02d16d4310</application>
+        <file_path/>
+        <instance_id>3f367bcfdb227dd039639027c5961901</instance_id>
+        <instance_name>dev219949</instance_name>
+        <name>sys_security_acl_role_0ee8747c47f73110a18beb02d16d430f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>aes.creator</sys_created_by><sys_created_on>2024-01-15 06:16:03</sys_created_on><sys_id>0ee8747c47f73110a18beb02d16d430f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1303803_manual_0_manuals.x_1303803_manual_0.user</sys_name><sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package><sys_policy/><sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope><sys_security_acl display_value="x_1303803_manual_0_manuals">02e8347c47f73110a18beb02d16d43ea</sys_security_acl><sys_update_name>sys_security_acl_role_0ee8747c47f73110a18beb02d16d430f</sys_update_name><sys_updated_by>aes.creator</sys_updated_by><sys_updated_on>2024-01-15 06:16:03</sys_updated_on><sys_user_role display_value="x_1303803_manual_0.user" name="x_1303803_manual_0.user">373f087447773110a18beb02d16d43c1</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-631050352</payload_hash>
+        <record_name>x_1303803_manual_0_manuals.x_1303803_manual_0.user</record_name>
+        <reverted_from/>
+        <source>7b3f087447773110a18beb02d16d43b9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2024-01-15 06:16:03</sys_created_on>
+        <sys_id>c6e8747c47f73110a18beb02d16d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d0bc347100000001</sys_recorded_at>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2024-01-15 06:16:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>0ee8747c6af73110b75ba8dc6779dd11</update_guid>
+        <update_guid_history>0ee8747c6af73110b75ba8dc6779dd11:-631050352</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1303803_manual_0_manuals.x_1303803_manual_0.user">10e1b19547333110a18beb02d16d4348</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 23:41:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>59db87e1b2c44485886d3398fafb3a99</sys_id>
+        <sys_metadata>0ee8747c47f73110a18beb02d16d430f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1303803_manual_0_manuals.x_1303803_manual_0.user</sys_name>
+        <sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope>
+        <sys_scope_delete display_value="">59642f7214f542d290494e5c31b07a09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0ee8747c47f73110a18beb02d16d430f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0ee8747c47f73110a18beb02d16d430f">c6e8747c47f73110a18beb02d16d4312</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 23:41:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

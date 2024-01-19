@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67021a1547b33110a18beb02d16d430e" label="Locations" max_length="40" name="x_1303803_manual_0_locations" type="collection">
+        <element label="Location ID" max_length="40" name="location_id" type="integer"/>
+        <element display="true" label="Location name" max_length="40" name="location_name" type="string"/>
+    </element>
+</database>

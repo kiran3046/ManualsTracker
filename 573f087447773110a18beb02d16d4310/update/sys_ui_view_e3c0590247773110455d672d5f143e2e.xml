@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>2_custom_portal_settings_x_1303803_manual_0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-19 05:12:56</sys_created_on>
+        <sys_id>e3c0590247773110455d672d5f143e2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2_custom_portal_settings_x_1303803_manual_0</sys_name>
+        <sys_package display_value="ManualsTracker" source="x_1303803_manual_0">573f087447773110a18beb02d16d4310</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ManualsTracker">573f087447773110a18beb02d16d4310</sys_scope>
+        <sys_update_name>sys_ui_view_e3c0590247773110455d672d5f143e2e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:12:56</sys_updated_on>
+        <title>2_custom_portal_settings_x_1303803_manual_0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

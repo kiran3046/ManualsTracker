@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2704b61547373110a18beb02d16d438a" label="Requests" max_length="40" name="x_1303803_manual_0_requests" type="collection">
+        <element label="Manual ID" max_length="32" name="manual_id" reference="x_1303803_manual_0_manuals" type="reference"/>
+        <element label="Request Date" max_length="40" name="request_date" type="glide_date_time"/>
+        <element label="Request ID" max_length="40" name="request_id" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="User ID" max_length="32" name="user_id" reference="x_1303803_manual_0_users" type="reference"/>
+        <index name="index">
+            <element name="manual_id"/>
+        </index>
+        <index name="index2">
+            <element name="user_id"/>
+        </index>
+    </element>
+</database>
